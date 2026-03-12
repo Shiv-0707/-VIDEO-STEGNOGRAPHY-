@@ -135,14 +135,14 @@ python Video_Stegano.py -e -i input.mp4 -o output.mp4 -m "Secret" -p "password"
 ## Capacity Calculation
 
 Maximum data capacity depends on:
-- Video resolution (width × height)
+- Video resolution (width * height)
 - Color channels (usually 3 for RGB)
 - Number of frames
 - LSB layers used (1-4 bits per pixel)
 
-Formula: (Width × Height × Channels × Frames × LSB bits) / 8 bytes
+Formula: (Width * Height * Channels * Frames * LSB bits) / 8 bytes
 
-Example: 1280×1080 video, 300 frames, RGB, 1-bit LSBɨ ~61 MB capacity
+Example: 1280*1080 video, 300 frames, RGB, 1-bit LSBɨ ~61 MB capacity
 
 ## Security Considerations
 
